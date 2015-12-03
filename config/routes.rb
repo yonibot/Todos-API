@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   resources :users, only: [:create]
 
-  resources :items, only: [:index, :create, :update]
+  resources :items, only: [:index, :create, :update, :destroy]
 
   post 'login' => 'auth#login'
 

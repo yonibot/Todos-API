@@ -20,6 +20,17 @@ class ItemsController < AuthController
     end
   end
 
+  def destroy
+    item = Item.where(id: item_params[:id]).first
+    if item.destroy
+      render json: {}
+    else
+      render json: {error: item.errors.full_messages}, status: 422
+    end
+  end
+
+
+
   def index
     if current_user
       render json: {items: current_user.items}, status: 200
