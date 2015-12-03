@@ -1,0 +1,4 @@
+development:
+  adapter: postgresql
+  database: todos_async_dev
+  pool: 5
