@@ -1,6 +1,8 @@
 # Todos API
 
-I wrote this simple Rails server for a tutorial on creating login flows with React Native. Feel free to use it. Demo is available at [https://todosapi-rails.herokuapp.com/items](https://todosapi-rails.herokuapp.com/items).
+I wrote this simple Rails server for a tutorial on creating login flows with React Native. It uses a simple token authentication system.
+
+ A demo is available at [https://todosapi-rails.herokuapp.com/items](https://todosapi-rails.herokuapp.com/items).
 
 ## Usage
 
@@ -24,5 +26,6 @@ Send a POST request to api_url/items:
   {item: {"content": "joe@example.com", completed: false, user_id: 1}}
 ```
 
+Please send complaints to:
 * [@yoniweisbrod](https://twitter.com/yoniweisbrod)
 * [http://www.yoniweisbrod.com](http://www.yoniweisbrod.com)
