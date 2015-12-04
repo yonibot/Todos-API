@@ -1,3 +1,16 @@
+# == Route Map
+#
+# Prefix Verb   URI Pattern          Controller#Action
+#  users POST   /users(.:format)     users#create
+#  items GET    /items(.:format)     items#index
+#        POST   /items(.:format)     items#create
+#   item PATCH  /items/:id(.:format) items#update
+#        PUT    /items/:id(.:format) items#update
+#        DELETE /items/:id(.:format) items#destroy
+#  login POST   /login(.:format)     auth#login
+# logout POST   /logout(.:format)    auth#logout
+#
+
 Rails.application.routes.draw do
 
   resources :users, only: [:create]

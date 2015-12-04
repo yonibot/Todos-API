@@ -26,6 +26,5 @@ Send a POST request to api_url/items:
   {item: {"content": "joe@example.com", completed: false, user_id: 1}}
 ```
 
-Please send complaints to:
 * [@yoniweisbrod](https://twitter.com/yoniweisbrod)
 * [http://www.yoniweisbrod.com](http://www.yoniweisbrod.com)

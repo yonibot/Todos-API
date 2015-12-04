@@ -12,7 +12,7 @@ class ItemsController < AuthController
   end
 
   def update
-    item = Item.where(id: item_params[:id]).first
+    item = Item.where(id: params[:id]).first
     if item.update(item_params)
       render json: {item: item}
     else
@@ -21,15 +21,13 @@ class ItemsController < AuthController
   end
 
   def destroy
-    item = Item.where(id: item_params[:id]).first
+    item = Item.where(id: params[:id]).first
     if item.destroy
       render json: {}
     else
       render json: {error: item.errors.full_messages}, status: 422
     end
   end
-
-
 
   def index
     if current_user
