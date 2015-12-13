@@ -2,7 +2,7 @@
 
 This is the Rails API server for the React Native Tutorial (upcoming).
 
- A demo is available at [https://todosapi-rails.herokuapp.com/items](https://todosapi-rails.herokuapp.com/items).
+The API server can be accessed via curl/Postman/etc at [https://todosapi-rails.herokuapp.com/items](https://todosapi-rails.herokuapp.com/items).
 
 ## Usage
 
