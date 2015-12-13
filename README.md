@@ -1,6 +1,6 @@
 # Todos API
 
-I wrote this simple Rails server for a tutorial on creating login flows with React Native. It uses a simple token authentication system.
+This is the Rails API server for the React Native Tutorial (upcoming).
 
  A demo is available at [https://todosapi-rails.herokuapp.com/items](https://todosapi-rails.herokuapp.com/items).
 
